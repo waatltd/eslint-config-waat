@@ -1,7 +1,7 @@
 Just install this package and define
 ```
 "eslintConfig": {
-  "extends": "eslint-config-uberchord"
+  "extends": "waat"
 }
 ```
 Where ever you want to use it.
