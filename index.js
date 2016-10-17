@@ -1,5 +1,11 @@
 module.exports = {
-  extends: 'airbnb',
+  extends: [
+	'airbnb',
+	'plugin:meteor/recommended',
+  ],
+  plugins: [
+	'meteor',
+  ],
   parser: 'babel-eslint',
   rules: {
     'react/jsx-filename-extension': [
@@ -27,5 +33,8 @@ module.exports = {
   },
   env: {
     browser: true,
+  },
+  settings: {
+    "import/resolver": "meteor"
   },
 };
